@@ -7,6 +7,11 @@
     background: #A4A6A5;
     border: 1px solid #dddddd;
 }
+#main-container {
+    
+    min-height: calc(100vh - 70px);
+  }
+  
 
 .work {
     position: relative;

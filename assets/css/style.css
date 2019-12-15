@@ -16,6 +16,9 @@ html, body {
   height: 50px;
   margin-top: -50px;
 }
+#main-container {
+  min-height: calc(100vh - 70px);
+}
 .container {
   width: 100%;
   max-width: 960px;
@@ -71,11 +74,13 @@ nav a:first-child {
 }
 
 .About{
-  background-color: #A4A6A5;
-  width: 960px;
-  padding: 20px;
-  margin: 15px 480px;
-  flex-wrap: wrap;
+  float: left;
+  width: 100%;
+  max-width: 960px;
+  padding: 30px;
+  margin: 0 0 40px;
+  background: #A4A6A5;
+  border: 1px solid #dddddd;
 }
 img {
   height: 250px;
