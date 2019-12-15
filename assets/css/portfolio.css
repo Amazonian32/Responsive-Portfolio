@@ -55,7 +55,7 @@
         width: auto;
       }
     .work {
-        width: 275px;
+        width: auto;
     }
 }
 @media screen and (max-width: 640px) {
@@ -65,6 +65,10 @@
       }
     .work {
         clear: both;
+        width: 325px;
     }  
+    h2 {
+        font-size: 200%;
+    }
 
 }
