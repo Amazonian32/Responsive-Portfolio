@@ -49,3 +49,8 @@
       width: auto;
     }
 }
+@media screen and (max-width: 768px) {
+    .work {
+        width: 275px;
+    }
+}
