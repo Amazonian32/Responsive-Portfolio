@@ -83,7 +83,7 @@ nav a:first-child {
   background: #A4A6A5;
   border: 1px solid #dddddd;
 }
-img {
+.About img {
   height: 250px;
   padding: 20px;
   float: left;
@@ -108,6 +108,9 @@ footer {
     .About {
       margin: auto;
       width: auto;
+    }
+    footer {
+      position: static;
     }
     
     
