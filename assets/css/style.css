@@ -8,6 +8,7 @@ html, body {
 }
 .content {
   min-height: 100%;
+  align-content: center;
 }
 .content-inside {
   padding: 20px;
