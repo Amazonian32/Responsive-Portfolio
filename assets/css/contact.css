@@ -19,3 +19,18 @@
       width: auto;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .Contact {
+        margin: auto;
+        width: auto;
+      }
+
+}
+
+@media screen and (max-width: 640px) {
+    .Contact {
+        margin: auto;
+        width: auto;
+      }
+}

@@ -50,7 +50,21 @@
     }
 }
 @media screen and (max-width: 768px) {
+    .Portfolio {
+        margin: auto;
+        width: auto;
+      }
     .work {
         width: 275px;
     }
+}
+@media screen and (max-width: 640px) {
+    .Portfolio {
+        margin: auto;
+        width: auto;
+      }
+    .work {
+        clear: both;
+    }  
+
 }
