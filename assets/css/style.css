@@ -1,9 +1,16 @@
 html, body {
-  height: 100%;
+  line-height: auto;
   margin: 0;
 }
 * {
   box-sizing: border-box;
+}
+.content {
+  height: 100%;
+}
+.content-inside {
+  padding: 20px;
+  padding-bottom: 50px;
 }
 
 .footer {
@@ -84,9 +91,10 @@ img {
 footer {
   background: #262323;
   color: white;
-  /* line-height: 50px;
-  padding: 0 20px; */
+  line-height: 50px;
+  padding: 0 20px;
   text-align: center;
+  clear: both;
 }
 
   @media screen and (max-width: 980px) {
