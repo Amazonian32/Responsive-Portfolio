@@ -1,0 +1,12 @@
+.Contact {
+    background-color: #8C3E44;
+    width: 960px;
+    padding: 30px;
+    margin: 15px 480px;
+    flex-wrap: wrap;
+    font-family: 'Arimo', sans-serif;
+}
+#Name, #Email, #Message {
+    position: relative;
+    width: 100%;
+}
