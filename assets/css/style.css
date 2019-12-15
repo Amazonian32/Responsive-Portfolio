@@ -4,18 +4,19 @@ html, body {
   }
   .content {
     min-height: 100%;
+    
   }
   .content-inside {
     /* padding: 20px; */
     padding-bottom: 50px;
   }
-  /* .footer {
+  .footer {
     height: 50px;
     margin-top: -50px;
-  } */
+  }
 
 body {
-    /* position: relative; */
+    position: relative;
     background-color: #51232D; 
     color: #262323;
     font-family: 'Arimo', sans-serif;
@@ -59,12 +60,12 @@ h1 {
     /* position: relative; */
     color: #A4A6A5;
 }
-h3 {
+/* h3 {
     float: right;
     margin-right: 400px;
     word-spacing: 20px;
 }
-
+ */
 
 .About{
     background-color: #A4A6A5;
@@ -96,6 +97,23 @@ footer {
     header, footer {
       position: static;
       text-align: center;
+    }
+    
+    h1 {
+    padding: auto;
+    margin: auto;
+    margin-left: auto;
+    width: 100%;
+    font-size: 20px;
+    }
+    nav {
+      background-color: grey;
+      float: left;
+      display: flex;
+    }
+    .About {
+      width: 100%;
+      position: relative;
     }
     
   }
