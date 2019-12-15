@@ -1,7 +1,8 @@
 .Portfolio {
     position: relative;
     background-color: #A4A6A5;
-    width: 960px;
+    width: 100%;
+    max-width: 960px;
     padding: 20px;
     margin: 15px 480px;
     height: 1000px;
@@ -9,57 +10,10 @@
     font-weight: bold;
 }
 
-.goal1 {
-    background-color: #8C3E44;
-    padding: 15px;
-    width: 295px;
-    height: 25px;
-    position: absolute;
-    margin-left: 20px;
-    top: 3in;
-    text-align: center;
-}
-.goal2 {
-    background-color: #8C3E44;
-    padding: 15px;
-    width: 295px;
-    height: 25px;
-    position: absolute;
-    margin-left: 20px;
-    top: 3in;
-    right: 2.81in;
-    text-align: center;
-}
-.goal3 {
-    background-color: #8C3E44;
-    padding: 15px;
-    width: 295px;
-    height: 25px;
-    position: absolute;
-    margin-left: 20px;
-    top: 6in;
-    text-align: center;
-}
-.dreaming {
-    background-color: #8C3E44;
-    padding: 15px;
-    width: 295px;
-    height: 25px;
-    position: absolute;
-    margin-left: 20px;
-    top: 6in;
-    right: 2.81in;
-    text-align: center;
-}
-.videogames {
-    background-color: #8C3E44;
-    padding: 15px;
-    width: 295px;
-    height: 25px;
-    position: absolute;
-    margin-left: 20px;
-    top: 9in;
-    text-align: center;
-}
 
- 
+@media screen and (max-width: 980px) {
+    .Portfolio {
+      margin: auto;
+      width: auto;
+    }
+}
