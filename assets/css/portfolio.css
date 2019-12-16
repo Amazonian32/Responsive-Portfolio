@@ -54,8 +54,8 @@
         margin: auto;
         width: auto;
       }
-    .work {
-        width: auto;
+    .work, .work img  {
+        width: 325px;
     }
 }
 @media screen and (max-width: 640px) {

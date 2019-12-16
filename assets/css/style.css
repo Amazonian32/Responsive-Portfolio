@@ -70,9 +70,9 @@ nav a {
   border-left: 1px solid #efefef;
 }
 
-nav a:first-child {
-  border-left: 0 none;
-}
+  nav a:first-child {
+    border-left: 0 none;
+  }
 
 .About{
   float: left;
