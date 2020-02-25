@@ -29,7 +29,7 @@
     background-size: cover;
     position: relative;
   }
-  .work h3 {
+  .work h3, a {
     position: absolute;
     bottom: 20px;
     width: 100%;
